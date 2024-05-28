@@ -6,4 +6,5 @@ getgenv().settings = {
     }
 }
 getgenv().webhook = "" -- put webhook here
+getgenv().HopDelay = 5 -- increase for less suspicion
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/Ps99-Free-Boothsniper/main/boothsniper%20main"))()
