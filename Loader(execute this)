@@ -1,0 +1,8 @@
+getgenv().settings = {
+    {
+        item = "Crystal Key", -- put anything here
+        maxPrice = 29000, -- max price
+        class = "Misc" -- class u can use big games api
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/Ps99-Free-Boothsniper/main/boothsniper%20main"))()
