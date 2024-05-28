@@ -5,4 +5,5 @@ getgenv().settings = {
         class = "Misc" -- class u can use big games api
     }
 }
+getgenv().webhook = "" -- put webhook here
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/Ps99-Free-Boothsniper/main/boothsniper%20main"))()
