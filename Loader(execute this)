@@ -1,10 +1,22 @@
-getgenv().settings = {
+getgenv().settings = { -- search in terminal for this item
     {
         item = "Crystal Key", -- put anything here
-        maxPrice = 29000, -- max price
+        maxPrice = 26500, -- max price
         class = "Misc" -- class u can use big games api
     }
 }
+getgenv().settings2 = { -- also get if it finds (you can expand the list even more)
+    {
+        item = "Secret Key"
+        maxPrice = 26500
+        class = "Misc"
+    },
+    {
+        item = "Tech Key"
+        maxPrice = 26500
+        class = "Misc"
+    }
+}
 getgenv().webhook = "" -- put webhook here
-getgenv().HopDelay = 5 -- increase for less suspicion
+getgenv().HopDelay = 3 -- increase for less suspicion
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/Ps99-Free-Boothsniper/main/boothsniper%20main"))()
