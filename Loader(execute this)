@@ -1,3 +1,4 @@
+getgenv().WhoreHubAuth = "WhoreHubKey-"
 getgenv().settings = { -- search in terminal for this item
     {
         item = "Crystal Key", -- put anything here
