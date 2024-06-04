@@ -1,21 +1,8 @@
-getgenv().WhoreHubAuth = "WhoreHubKey-"
 getgenv().settings = { -- search in terminal for this item
     {
         item = "Crystal Key", -- put anything here
         maxPrice = 26500, -- max price
         class = "Misc" -- class u can use big games api
-    }
-}
-getgenv().settings2 = { -- also get if it finds (you can expand the list even more)
-    {
-        item = "Secret Key"
-        maxPrice = 26500
-        class = "Misc"
-    },
-    {
-        item = "Tech Key"
-        maxPrice = 26500
-        class = "Misc"
     }
 }
 getgenv().webhook = "" -- put webhook here
